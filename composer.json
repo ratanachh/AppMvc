@@ -1,0 +1,21 @@
+{
+    "name": "projectsgroup/mvc",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ratana",
+            "email": "chhormratana@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.1",
+        "php": ">=7.2",
+        "php-di/php-di": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\" : "src/",
+            "Framework\\" : "framework/"
+        }
+    }
+}
